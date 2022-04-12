@@ -1,0 +1,81 @@
+.side{
+    padding-left:6cm;
+}
+
+body{
+
+    margin: 1%;
+padding:0%;
+   background:linear-gradient(to right,rgb(91, 217, 80),rgb(229, 26, 8));
+   line-height: 0.6;
+
+}
+
+.calcu{
+
+text-align: center;
+width: 500px;
+padding-left: 4cm;
+    padding-top: 100px;
+    padding-bottom: 100;
+
+}
+
+.button{
+
+    width: 55;
+    height: 55;
+    padding-top: -1;
+    font-size: 20;
+    border: none;
+    background: white;
+    font-family: sans-serif;
+    font-weight: 300;
+    border:0;
+    border-radius: 30px;
+    margin: 1.5;
+    transition:0.25px;
+    
+    
+}
+
+#display{
+    
+    border:none;
+    background: white;
+    border-radius: 30px;
+    width: 245;
+    font-size: 20;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    height: 60;
+    margin: auto;
+    border:2px solid white(5, 218, 255, 0.726);
+    color: black;
+
+}
+
+.operator{
+
+    text-align: center;
+    width: 55;
+    height: 55;
+    padding-top: -1;
+    font-size: 20;
+    text-align: center;
+    color: black;
+    border: none;
+    background: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    border:0;
+    border-radius: 30px;
+    margin: 1.5;
+    transition:0.25px;
+    cursor:pointer;
+    
+}
+
+.operator:hover{
+    background: #159cdf;
+}
